@@ -1,0 +1,19 @@
+public class cachorro extends animal{
+    private string pelagem;
+    private int patas;
+
+    public cachorro(string nome,int idade, string especie, string pelagem, int patas){
+        super(nome, idade, especie);
+        this.pelagem= pelagem;
+        this.patas=patas;
+    }
+    @override
+    public void exibirinformacoes(){
+        system.out.println(x:"=====cachorro====");
+        system.out.println("nome:"+ nome);
+        system.out.println("idade:"+ idade);
+        system.out.println("especie:"+ especie);
+        system.out.println("tipo de pelagem:"+ pelagem);
+        system.out.println("quantidade de pelagem"+ patas);
+    }
+}
