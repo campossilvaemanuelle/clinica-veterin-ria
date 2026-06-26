@@ -1,0 +1,14 @@
+public class papagaio extends animal{
+    private string bico;
+    private string pena;
+    private string asa;
+
+    public papagaio(string nome, int idade, string especie, string bico, string pena, string asa){
+    super(nome, idade, especie);
+    this.bico= bico;
+    this.asa=asa;
+}
+@override
+public void exibirinformacoes(){
+    system.out.println
+}
