@@ -1,0 +1,16 @@
+public class animal{
+    protected string nome;
+    protected int idade;
+    protected string especie;
+
+    public animal(string nome,int idade,string especie){
+        this.nome=nome;
+        this.idade=idade;
+        this.especie=especie;
+    }
+    public void exibirinformacoes(){
+        system.out.println("nome:"+ nome);
+        system.out.println("idade:"+ idade);
+        system.out.println("especie:"+ especie);
+    }
+}
